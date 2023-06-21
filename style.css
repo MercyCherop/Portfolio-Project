@@ -1,32 +1,29 @@
-:root{
+:root {
   --branding-color: #212529;
-  --heading-font-family:'Josefin Slab';
-  --content-font: 'sans-serif';
-  
+  --heading-font-family: "Josefin Slab";
+  --content-font: "sans-serif";
 }
-
 
 h1 {
   font-family: var(--heading-font-family);
   font-size: 76px;
 }
 
-h2{
+h2 {
   font-family: var(--content-font);
   font-size: 24px;
 }
 
-.hero p{
+.hero p {
   font-size: 36px;
-  
 }
 
-.hero{
+.hero, .projects {
   text-align: center;
   padding: 160px 20px;
   border: 10px solid;
 }
- .contact-btn{
+.contact-btn {
   background: var(--branding-color);
   color: white;
   border-radius: 4px;
@@ -35,9 +32,23 @@ h2{
   font-weight: 500;
   line-height: 27px;
   padding: 15px 30px;
- }
+}
 
- /*.dp-img{
-  height: 250px;
-  border-radius: 50%;
- }*/
+.dp-img {
+  height: 350px;
+  padding-left: 50%;
+}
+.project-img{
+  width: 45%;
+  height: 450px;
+}
+.about{
+  padding: 160px 20px;
+  border: 10px solid;
+}
+
+.about-text {
+  width: 60%;
+  font-size: 18px;
+}
+
