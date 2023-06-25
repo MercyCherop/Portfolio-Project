@@ -18,25 +18,30 @@ h2 {
   font-size: 36px;
 }
 
-.projects, .projects-page {
+.projects,
+.projects-page,
+.contact-page {
   text-align: center;
   padding: 160px 20px;
   border: 10px solid;
 }
 
-.hero{
+.contact-page{
+  height: 100vh;
+}
+
+.hero {
   height: 100vh;
   padding: 200px 20px;
   text-align: center;
-  border:10px solid ;
-  
+  border: 10px solid;
 }
 
-.home-h1{
+.home-h1 {
   padding-right: 0;
 }
 
-.certs{
+.certs {
   text-align: center;
 }
 .contact-btn {
@@ -54,17 +59,15 @@ h2 {
   height: 350px;
   padding-left: 50%;
 }
-.project-img{
+.project-img {
   width: 45%;
   height: 450px;
   margin: 0 auto;
 }
-.about{
+.about {
   padding: 140px 20px;
   border: 10px solid;
 }
-
-
 
 .about-text {
   width: 60%;
@@ -72,14 +75,12 @@ h2 {
   top: 30%;
 }
 
-.about-header{
-  text-align:center;
+.about-header {
+  text-align: center;
 }
 
-
 @media (max-width: 576px) {
-
-  .hero{
+  .hero {
     padding-top: 160px;
   }
   h1 {
@@ -98,11 +99,9 @@ h2 {
     margin: 0 auto;
   }
 
-.about{
-  padding-top: 100px;
-  
-}
-
+  .about {
+    padding-top: 100px;
+  }
 
   .contact-btn {
     display: block;
@@ -111,40 +110,84 @@ h2 {
   }
 }
 
-.logo{
+.logo {
   position: absolute;
   left: 10px;
   top: 0;
-  
-
 }
-.underlined{
+.underlined {
   text-decoration: underline;
 }
 
 /*Add custom cursor so it auto inherits font styles*/
 .typed::after {
-	content: '|';
-	display: inline;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+  content: "|";
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
-
 
 /*Custom cursor animation*/
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Contact Page*/
+.contact-div{
+width: 35%;
+padding: 20px;
+display: block;
+margin: 0 auto;
+
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  
+}
+
+i{
+  color: var(--branding-color);
+
+}
+
+.icons{
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 100px;
+ 
 }
