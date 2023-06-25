@@ -97,9 +97,13 @@ h2 {
     text-align: center;
     margin: 0 auto;
   }
+
 .about{
   padding-top: 100px;
+  
 }
+
+
   .contact-btn {
     display: block;
     text-align: center;
@@ -107,6 +111,13 @@ h2 {
   }
 }
 
+.logo{
+  position: absolute;
+  left: 10px;
+  top: 0;
+  
+
+}
 .underlined{
   text-decoration: underline;
 }
