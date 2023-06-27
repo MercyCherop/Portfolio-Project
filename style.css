@@ -26,7 +26,7 @@ h2 {
   border: 10px solid;
 }
 
-.contact-page{
+.contact-page {
   height: 100vh;
 }
 
@@ -59,7 +59,8 @@ h2 {
   height: 350px;
   padding-left: 50%;
 }
-.project-img {
+.project-img,
+.cert-img {
   width: 45%;
   height: 450px;
   margin: 0 auto;
@@ -70,14 +71,24 @@ h2 {
 }
 
 .about-text {
-  width: 60%;
+  width: 45%;
   font-size: 18px;
   top: 30%;
+  font-size: 15px;
 }
 
 .about-header {
   text-align: center;
 }
+
+footer{
+  text-align: center;
+  height: 4rem;
+  background:var(--branding-color);
+  color: #fff;
+}
+
+
 
 @media (max-width: 576px) {
   .hero {
@@ -101,6 +112,21 @@ h2 {
 
   .about {
     padding-top: 100px;
+  }
+
+  .about-text {
+    padding: top 0;
+  }
+
+  .dp-img {
+    padding-left: 0;
+  }
+
+  .project-img,
+  .cert-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
   }
 
   .contact-btn {
@@ -164,30 +190,26 @@ h2 {
 }
 
 /*Contact Page*/
-.contact-div{
-width: 35%;
-padding: 20px;
-display: block;
-margin: 0 auto;
-
+.contact-div {
+  width: 35%;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
 }
 
-li{
+li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
-  
 }
 
-i{
+i {
   color: var(--branding-color);
-
 }
 
-.icons{
+.icons {
   justify-content: space-between;
   width: 50%;
   margin-left: 100px;
- 
 }
