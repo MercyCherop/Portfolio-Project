@@ -64,11 +64,16 @@ h2 {
   width: 45%;
   height: 450px;
   margin: 0 auto;
+  
 }
 .about {
   padding: 140px 20px;
   border: 10px solid;
 }
+
+
+
+
 
 .about-text {
   width: 45%;
@@ -79,6 +84,8 @@ h2 {
 
 .about-header {
   text-align: center;
+  font-weight: bold;
+  
 }
 
 footer{
