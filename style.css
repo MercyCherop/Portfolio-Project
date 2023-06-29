@@ -64,7 +64,6 @@ h2 {
   width: 45%;
   height: 450px;
   margin: 0 auto;
-  
 }
 .about {
   padding: 140px 20px;
@@ -82,14 +81,12 @@ h2 {
   text-align: center;
 }
 
-footer{
+footer {
   text-align: center;
   height: 4rem;
-  background:var(--branding-color);
+  background: var(--branding-color);
   color: #fff;
 }
-
-
 
 @media (max-width: 576px) {
   .hero {
